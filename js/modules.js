@@ -184,6 +184,10 @@ var simpleTableModules = [
         template: '<table-data heading="Common Applications" module-name="common_applications" info="List of commonly installed applications."></table-data>' 
     },
     { 
+        name: 'dockerContainers', 
+        template: '<table-data heading="Docker Containers" module-name="docker_containers" info="List of running Docker containers"></table-data>' 
+    },
+    { 
         name: 'pingSpeeds', 
         template: '<table-data heading="Ping Speeds" module-name="ping" info="Ping speed in milliseconds."></table-data>' 
     },
